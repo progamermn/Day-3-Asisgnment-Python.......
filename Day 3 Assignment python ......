@@ -1,0 +1,16 @@
+
+
+
+import numpy as np
+import pandas as pd
+a = np.random.random((1,5,4))
+print(a)
+b = np.random.randn(1,5,4)
+print(b)
+dict = { "NAME":["AYESHA","APARNA","ASHA","ANANDHI","AMEENA"],
+         "CLASS":[10,9,9,8,8],
+        "PRESENT DAYS":[21,22,21,23,25],
+        "PERCENTAGE":[90,89,99,95,93],
+       }
+data_frame = pd.DataFrame(dict)
+print(data_frame)
